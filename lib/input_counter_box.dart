@@ -22,7 +22,7 @@ class _InputCounterBoxState extends State<InputCounterBox> {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: widget.color.withOpacity(0.8),
+      color: widget.color,
       child: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
